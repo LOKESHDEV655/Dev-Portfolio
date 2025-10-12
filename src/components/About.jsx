@@ -1,0 +1,41 @@
+import React from "react";
+import myAboutImg from "../assets/img/profile1.jpg";
+
+const About = () => (
+  <section className="about navg section" id="about">
+    <span className="section__subtitle">My Intro</span>
+    <h2 className="section__title">About Me</h2>
+    <div className="about__container container grid">
+      <img src={myAboutImg} alt="" className="about__img" />
+      <div className="about__data">
+        <div className="about__info">
+          <div className="about__box">
+            <i className="bx bx-award about__icon"></i>
+            <h3 className="about__title">Experience</h3>
+            <span className="about__subtitle">2+</span>
+          </div>
+          <div className="about__box">
+            <i className="bx bx-briefcase-alt about__icon"></i>
+            <h3 className="about__title">Completed</h3>
+            <span className="about__subtitle">3+ Projects</span>
+          </div>
+          <div className="about__box">
+            <i className="bx bx-support about__icon"></i>
+            <h3 className="about__title">Support</h3>
+            <span className="about__subtitle">Online 24/7</span>
+          </div>
+        </div>
+        <p className="about__description">
+          I am a Full Stack developer, I create web pages with UI / UX user
+          interface, I have ample experience and many clients are happy with the
+          projects carried out.
+        </p>
+        <a href="#contact" className="button">
+          Contact Me
+        </a>
+      </div>
+    </div>
+  </section>
+);
+
+export default About;

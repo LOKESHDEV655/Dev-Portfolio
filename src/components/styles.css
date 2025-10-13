@@ -576,6 +576,7 @@ body.light-theme {
 
 /* Services modal */
 .services__modal {
+  display: none;
   position: fixed;
   inset: 0;
   background-color: hsla(var(--second-hue), 28%, 16%, 0.7);
@@ -586,6 +587,10 @@ body.light-theme {
   opacity: 0;
   transition: 0.4s;
   z-index: var(--z-modal);
+}
+
+.services__modal.active-modal {
+  display: block;
 }
 
 .services__modal-content {

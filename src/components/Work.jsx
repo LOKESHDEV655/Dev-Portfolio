@@ -1,40 +1,45 @@
 import React, { useState } from "react";
+import gif from "../assets/img/gif.png";
+import cart from "../assets/img/cart.png";
+import tictactoe from "../assets/img/tictactoe.png";
+import blogs from "../assets/img/blogs.png";
+import portfolio from "../assets/img/portfolio.png";
 
 const workItems = [
   {
     id: 1,
-    title: "QuietPaper Website",
-    img: "assets/img/my_work1.png",
-    link: "https://www.quietpaper.in",
-    category: "web",
+    title: "E-commerce website",
+    img: cart,
+    link: "https://shopping-cart-15.vercel.app/",
+    category: "web",    
   },
   {
     id: 2,
-    title: "Donation Website",
-    img: "assets/img/my_work2.png",
-    link: "https://donation-sparks-foundation.000webhostapp.com",
+    title: "Random gif generator",
+    img: gif,
+    link: "https://random-gif-generator-ivory.vercel.app/",
     category: "web",
   },
   {
     id: 3,
-    title: "Pixlogix website",
-    img: "assets/img/my_work3.png",
-    link: "https://khatrigautam2001.github.io/Pixlogix_Website/",
+    title: "Portfolio Template",
+    img: portfolio,
+    link: "https://portfolio-template-gamma-dusky.vercel.app/",
     category: "frontend",
   },
   {
     id: 4,
-    title: "Starbucks Coffe Design",
-    img: "assets/img/my_work5.png",
-    link: "https://khatrigautam2001.github.io/Starbucks_Coffee_Website/",
-    category: "design",
+    title: "Blogs Website",
+    img: blogs,
+    link: "https://dev-blogs-ruby.vercel.app/",
+    category: "frontend",
   },
   {
     id: 5,
-    title: "Health Therapy Website",
-    img: "assets/img/my_work4.png",
-    link: "https://khatrigautam2001.github.io/heart_it_health_therapy_website/",
-    category: "frontend",
+    title: "Tic Tac Toe Game",
+    img: tictactoe,
+    link: "https://tic-tac-toe-lime-zeta.vercel.app/",
+    category: "design",
   },
 ];
 

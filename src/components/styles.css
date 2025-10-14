@@ -581,7 +581,7 @@ body.light-theme {
   inset: 0;
   background-color: hsla(var(--second-hue), 28%, 16%, 0.7);
   padding: 2rem 1rem;
-  display: grid;
+  display: grid;  
   place-items: center;
   visibility: hidden;
   opacity: 0;

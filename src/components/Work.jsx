@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import gif from "../assets/img/gif.png";
+import gif from "../assets/img/gifImg.png";
 import cart from "../assets/img/cart.png";
 import tictactoe from "../assets/img/tictactoe.png";
 import blogs from "../assets/img/blogs.png";

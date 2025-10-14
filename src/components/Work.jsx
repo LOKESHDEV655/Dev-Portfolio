@@ -1,39 +1,41 @@
 import React, { useState } from "react";
+import gif from "../assets/img/gif.png";
+import cart from "../assets/img/cart.png";
 
 const workItems = [
   {
     id: 1,
-    title: "QuietPaper Website",
-    img: "assets/img/my_work1.png",
-    link: "https://www.quietpaper.in",
-    category: "web",
+    title: "E-commerce website",
+    img: cart,
+    link: "https://shopping-cart-15.vercel.app/",
+    category: "web",    
   },
   {
     id: 2,
-    title: "Donation Website",
-    img: "assets/img/my_work2.png",
-    link: "https://donation-sparks-foundation.000webhostapp.com",
+    title: "Random gif generator",
+    img: gif,
+    link: "https://random-gif-generator-ivory.vercel.app/",
     category: "web",
   },
   {
     id: 3,
-    title: "Pixlogix website",
+    title: "Portfolio Template",
     img: "assets/img/my_work3.png",
-    link: "https://khatrigautam2001.github.io/Pixlogix_Website/",
+    link: "https://portfolio-template-gamma-dusky.vercel.app/",
     category: "frontend",
   },
   {
     id: 4,
-    title: "Starbucks Coffe Design",
+    title: "Tic Tac Toe Game",
     img: "assets/img/my_work5.png",
-    link: "https://khatrigautam2001.github.io/Starbucks_Coffee_Website/",
+    link: "https://tic-tac-toe-lime-zeta.vercel.app/",
     category: "design",
   },
   {
     id: 5,
-    title: "Health Therapy Website",
+    title: "Blogs Website",
     img: "assets/img/my_work4.png",
-    link: "https://khatrigautam2001.github.io/heart_it_health_therapy_website/",
+    link: "https://dev-blogs-ruby.vercel.app/",
     category: "frontend",
   },
 ];

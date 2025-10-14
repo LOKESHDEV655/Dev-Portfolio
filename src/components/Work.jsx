@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import gif from "../assets/img/gif.png";
 import cart from "../assets/img/cart.png";
+import tictactoe from "../assets/img/tictactoe.png";
+import blogs from "../assets/img/blogs.png";
+import portfolio from "../assets/img/portfolio.png";
 
 const workItems = [
   {
@@ -20,23 +23,23 @@ const workItems = [
   {
     id: 3,
     title: "Portfolio Template",
-    img: "assets/img/my_work3.png",
+    img: portfolio,
     link: "https://portfolio-template-gamma-dusky.vercel.app/",
     category: "frontend",
   },
   {
     id: 4,
-    title: "Tic Tac Toe Game",
-    img: "assets/img/my_work5.png",
-    link: "https://tic-tac-toe-lime-zeta.vercel.app/",
-    category: "design",
+    title: "Blogs Website",
+    img: blogs,
+    link: "https://dev-blogs-ruby.vercel.app/",
+    category: "frontend",
   },
   {
     id: 5,
-    title: "Blogs Website",
-    img: "assets/img/my_work4.png",
-    link: "https://dev-blogs-ruby.vercel.app/",
-    category: "frontend",
+    title: "Tic Tac Toe Game",
+    img: tictactoe,
+    link: "https://tic-tac-toe-lime-zeta.vercel.app/",
+    category: "design",
   },
 ];
 

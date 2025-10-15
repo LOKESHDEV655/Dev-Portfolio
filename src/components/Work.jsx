@@ -11,7 +11,7 @@ const workItems = [
     title: "E-commerce website",
     img: cart,
     link: "https://shopping-cart-15.vercel.app/",
-    category: "web",    
+    category: "frontend",    
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ const workItems = [
     title: "Blogs Website",
     img: blogs,
     link: "https://dev-blogs-ruby.vercel.app/",
-    category: "frontend",
+    category: "web",
   },
   {
     id: 5,

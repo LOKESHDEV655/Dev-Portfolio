@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import TypingCursor from "./TypingCursor";
+import myProfile from "../assets/img/lokesh1.png";
 
 const Home = () => {
   const educationRef = useRef(null);
@@ -50,7 +51,7 @@ const Home = () => {
           </div>
         </div>
         <div className="home__handle">
-          <img src="assets/img/my_prefil.png" alt="" className="home__img" />
+          <img src={myProfile} alt="" className="home__img" />
         </div>
         <div className="home__social">
           <a

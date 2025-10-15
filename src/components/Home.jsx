@@ -39,7 +39,7 @@ const Home = () => {
           <div className="home__buttons">
             <a
               download
-              href="assets/pdf/Lokesh_dev_resume.pdf"
+              href="../assets/Lokesh_dev_resume.pdf"
               className="button button--ghost"
             >
               Download Resume
